@@ -34,8 +34,8 @@ header {
 }
 
 header img {
-  width: 120px;
-  padding-block: 26.5px;
+  width: 160px;
+  padding-block: 25px;
 }
 
 .head {
@@ -74,10 +74,12 @@ button {
 
 main {
   text-align: center;
-  margin-inline: 20px;
+}
+.article {
+  margin-inline: 35px;
 }
 
-main img {
+.article img {
   border-radius: 50%;
   width: 300px;
   margin-block: 35px;
@@ -89,4 +91,87 @@ main img {
 
 .article p {
   margin-bottom: 35px;
+}
+
+.testimony {
+  background-color: #e22d0e;
+  color: white;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 2.3rem;
+  padding-top: 60px;
+  line-height: 2.15rem;
+  margin-inline: 35px;
+}
+
+.testimony .special {
+  font-style: italic;
+  padding-block: 40px;
+}
+
+.testimony p {
+  padding-bottom: 20px;
+}
+.cards {
+  width: 300px;
+  margin-inline: auto;
+  margin-block: 35px;
+  border: 1px solid #dee1e3;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.cards img {
+  width: 100%;
+}
+
+.cards h3 {
+  margin-block: 10px;
+}
+
+.cards p {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  margin-inline: 20px;
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: #26a3c9;
+  color: #c8e7f0;
+  text-align: center;
+}
+
+footer i {
+  color: white;
+}
+
+footer a {
+  color: #c8e7f0;
+}
+
+footer h2 {
+  margin-block: 30px;
+  color: white;
+}
+
+footer div div {
+  display: block;
+}
+
+.contacts {
+  margin-bottom: 35px;
+}
+
+.copyright {
+  padding-bottom: 100px;
+  padding-top: 40px;
+  border-top: 1px solid #c8e7f0;
+  width: max-content;
+  margin-inline: auto;
 }
